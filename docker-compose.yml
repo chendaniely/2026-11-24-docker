@@ -1,0 +1,6 @@
+services:
+  analysis-env:
+    build: .
+    image: 2026-11-24-docker
+    volumes:
+      - .:/workspace
